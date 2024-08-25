@@ -42,18 +42,41 @@ class BinarySearchTree {
   //BFS
   levelOrder() {
     if (!this.root) return null;
-    let curr
+    let curr;
 
-    const queue = [this.root.val];
+    const queue = [this.root];
 
-    while(queue.length){
-        curr = queue.shift()
+    while (queue.length) {
+      curr = queue.shift();
 
-        console.log(curr.val)
-        queue.push(curr.left)
-        queue.push(curr.right)
+      console.log(curr.val);
+      if (curr.left) queue.push(curr.left);
+      if (curr.right) queue.push(curr.right);
     }
   }
-
-  
 }
+
+const bst = new BinarySearchTree();
+bst.insert(10);
+bst.insert(5);
+bst.insert(15);
+bst.insert(3);
+bst.insert(7);
+
+console.log("Preorder DFS:");
+bst.preorder();
+
+// console.log("Inorder DFS:");
+// bst.inorder();
+
+// console.log("Postorder DFS:");
+// bst.postorder();
+
+console.log("Level Order BFS:");
+bst.levelOrder();
+
+// console.log("Minimum Value (Recursive):", bst.getMinRecursive());
+// console.log("Minimum Value (Iterative):", bst.getMinIterative());
+
+// console.log("Height of Tree (Recursive):", bst.heightRecursive());
+// console.log("Height of Tree (Iterative):", bst.heightIterative());

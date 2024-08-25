@@ -20,3 +20,14 @@
 - Array Methods
 
 Per Day Topic: 18/15
+
+## 24-Aug, Sat
+
+- Statically Typed vs Dynamically Typed
+- TypeOf, isArray
+- Type Casting vs Type Coercion
+- Nullish Operator
+- Falsy Values
+- NaN
+
+Per Day Topic: 6/15

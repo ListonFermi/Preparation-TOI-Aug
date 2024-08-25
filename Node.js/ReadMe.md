@@ -1,6 +1,4 @@
-## 19-Aug, Mon
-
-### Node-Express
+## 23-Aug, Fri
 
 - REPL
 - Node core modules (fs, events, util, etc.)
@@ -18,3 +16,17 @@
 - Exit codes
 - req.params vs req.query
 - Authentication vs Authorization
+
+Per Day Topic: 16/14
+
+## 24-Aug, Sat
+
+- Dynamic routing
+- View engines (e.g., EJS, Pug)
+- Error-first callback
+- Alternative frameworks for Express.js
+- FS module
+- fs.stat
+- Exit codes
+
+Per Day Topic: 7/14

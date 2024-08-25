@@ -1,4 +1,4 @@
-## 19-Aug, Mon
+## 23-Aug, Fri
 
 ### DSA I & II
 
@@ -23,3 +23,9 @@ PerDay Topics Covered: 8/7
 - Shortest Path Algorithms (Dijkstra, Bellman-Ford)
 
 PerDay Topics Covered: 6/7 
+
+## 24-Aug, Sat
+
+- what is recursion
+
+PerDay Topics Covered: 1/7 
