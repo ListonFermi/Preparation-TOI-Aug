@@ -13,7 +13,7 @@
 
 PerDay Topics Covered: 8/7 
 
-## DSA III
+### DSA III
 
 - Root node
 - Child node
@@ -38,3 +38,26 @@ PerDay Topics Covered: 1/7
 - Binary search
 
 PerDay Topics Covered: 2/7 
+
+## 26-Aug, Mon
+
+### DSA I & II
+
+- linked list 
+- time complexity of linear search
+- time complexity of binary search
+- Factorial of a number using recursion
+- bubble sort
+- quick sort
+- selection sort
+- What is a stack?
+- What is queue?
+
+PerDay Topics Covered: 9/7
+
+### DSA III
+
+- Heap (Min heap, Max heap)
+- Heapify
+
+PerDay Topics Covered: 2/7

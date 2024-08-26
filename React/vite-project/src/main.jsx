@@ -5,12 +5,14 @@ import './index.css'
 import UseRedSample from './UseRedSample.jsx'
 import UseCallbackSample from './UseCallbackSample.jsx'
 import TopComp from './TopComp.jsx'
+import ParentComp from './ParentComp.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
     {/* <UseRedSample/> */}
     {/* <UseCallbackSample/> */}
-    <TopComp/>
+    {/* <TopComp/> */}
+    <ParentComp />
   </StrictMode>,
 )

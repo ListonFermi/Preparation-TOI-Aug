@@ -54,6 +54,15 @@ class BinarySearchTree {
       if (curr.right) queue.push(curr.right);
     }
   }
+
+  height(curr = this.root) {
+    if (!curr) return -1;
+
+    const leftHt = this.height(curr.left);
+    const rigthHt = this.height(curr.right);
+
+    return Math.max(leftHt, rigthHt) + 1;
+  }
 }
 
 const bst = new BinarySearchTree();
@@ -80,3 +89,5 @@ bst.levelOrder();
 
 // console.log("Height of Tree (Recursive):", bst.heightRecursive());
 // console.log("Height of Tree (Iterative):", bst.heightIterative());
+
+console.log(bst.height())

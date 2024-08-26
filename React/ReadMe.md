@@ -37,3 +37,22 @@ PerDay Topics Covered: 10/9
 - useReducer
 
 PerDay Topics Covered: 1/10
+
+## 26-Aug, Mon 
+
+### React I
+
+- context api
+- useContext
+
+PerDay Topics Covered: 2/9
+
+### React II
+
+- state, setState
+- useState
+- useEffect
+- useContext
+- Context API
+
+PerDay Topics Covered: 5/10

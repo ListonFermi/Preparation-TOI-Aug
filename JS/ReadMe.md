@@ -40,3 +40,26 @@ Per Day Topic: 6/15
 - Event Loop
 
 Per Day Topic: 4/15
+
+## 26-Aug, Mon
+
+- Microtask Queue
+- Blocking Code
+- Concurrency vs Parallelism
+- Shadowing vs Illegal Shadowing
+- Pass by Value vs Pass by Reference
+- Pure Function vs Impure Function
+- Closure (Application and Drawbacks)
+- Callback
+- Higher Order Function
+- Callback Hell
+- Function Currying
+- Arrow Function vs Regular Function
+- IIFE (Immediately Invoked Function Expression)
+- Eval()
+- Labels
+- Largest Digit in Number
+- Days Until Christmas
+- Destructuring Nested Property
+
+Per Day Topic: 18/15

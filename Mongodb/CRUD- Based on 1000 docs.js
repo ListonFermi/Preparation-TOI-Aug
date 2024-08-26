@@ -1,5 +1,5 @@
 /*
-{
+  {
     "index": NumberInt(0),
     "name": "Aurelia Gonzales",
     "isActive": false,
@@ -103,5 +103,3 @@ These questions are designed to test your understanding of MongoDB operations, s
 19.
 
 */
-
-

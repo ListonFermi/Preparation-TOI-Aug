@@ -71,4 +71,4 @@ function quickSort(a) {
   return [...quickSort(leftArr), pivot, ...quickSort(rightArr)];
 }
 
-console.log("Quick sorted  O(n^2) | O(n) : " + quickSort(a));
+console.log("Quick sorted  O(n^2) Avg: O(n*log(n)) | O(n) : " + quickSort(a));

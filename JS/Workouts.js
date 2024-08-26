@@ -23,4 +23,15 @@ const d = Object.assign(c,{age:25})
 console.log(d)
 */
 
-const k = 10;
+/*
+
+// const k = 10;
+
+let y = 20;
+
+if (true) {
+    // let y = 30; // Legal shadowing, different block
+    var y = 30;   // Illegal shadowing in strict mode or block-scoped context
+}
+
+*/
