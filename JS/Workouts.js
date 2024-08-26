@@ -1,3 +1,4 @@
+/*
 const a = [
   ["Name", "Riyas"],
   ["age", 20],
@@ -20,3 +21,6 @@ const c = { name: "Akil", age: 24 };
 const d = Object.assign(c,{age:25})
 // const e = { ...c, phone: 5555, age:25}
 console.log(d)
+*/
+
+const k = 10;

@@ -37,7 +37,3 @@ PerDay Topics Covered: 10/9
 - useReducer
 
 PerDay Topics Covered: 1/10
-
-### React II
-
-PerDay Topics Covered: 0/9

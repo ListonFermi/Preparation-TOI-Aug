@@ -31,3 +31,12 @@ Per Day Topic: 18/15
 - NaN
 
 Per Day Topic: 6/15
+
+## 25-Aug, Sun
+
+- Synchronous vs Asynchronous
+- Single Thread vs Multi Thread
+- Global Execution Context
+- Event Loop
+
+Per Day Topic: 4/15

@@ -10,3 +10,8 @@ Completed 15/74 topics
 
 --- "Topics covered on 24-Aug" ---
 
+## 26-Aug, Mon
+
+Completed 6/74 topics
+
+--- "Topics covered on 25-Aug" ---

@@ -29,3 +29,12 @@ PerDay Topics Covered: 6/7
 - what is recursion
 
 PerDay Topics Covered: 1/7 
+
+## 25-Aug, Sun
+
+### DSA I & II
+
+- Linear search
+- Binary search
+
+PerDay Topics Covered: 2/7 
