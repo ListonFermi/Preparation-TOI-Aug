@@ -1,3 +1,7 @@
+Prompt: 
+`Give me top 10 interview questions each in javascript, node- express, react and mongodb. The questions should be in a way that these are the most asked and must known questions. And also there is no interview without these questions. And one cannot clear any interview without knowing these questions.`
+
+
 If there's no limit to the number of questions but the other aspects remain the same (most asked, essential, and must-know questions for clearing interviews), here's an expanded list for each topic:
 
 ### JavaScript: Comprehensive Interview Questions
