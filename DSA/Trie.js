@@ -10,8 +10,9 @@ class Trie {
     this.root = new TrieNode()
   }
 
+  insert(){
+
+  }
   
-
-
 
 }

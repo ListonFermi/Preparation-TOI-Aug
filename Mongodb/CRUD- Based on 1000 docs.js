@@ -103,3 +103,86 @@ These questions are designed to test your understanding of MongoDB operations, s
 19.
 
 */
+
+/*
+
+Here are the practice questions:
+
+1. **$group**:  
+   Group the documents by `gender` and calculate the average `age` and the count of users for each gender.
+
+2. **$out**:  
+   Write an aggregation pipeline that groups the documents by `eyeColor` and then saves the results into a new collection called `EyeColorSummary`.
+
+3. **$merge**:  
+   Group the documents by `favoriteFruit` and merge the results into an existing collection called `FavoriteFruitSummary`. If the document already exists, update it; otherwise, insert a new document.
+
+4. **$expr - Compare fields in the same document**:  
+   Find all documents where the `index` field is equal to the `age` field.
+
+5. **$elemMatch - Embedded documents in an array**:  
+   Find all documents where the `tags` array contains both `"consequat"` and `"id"`.
+
+*/
+
+/*
+
+1. db.people.aggregate({$group: {  _id: '$gender', avgAge: {  $avg: '$age' }     }})
+2. db.people.aggregate([{$group: {  _id: '$eyeColor', count: {  $sum : 1 }     }},{$out: 'EyeColorSummary'}])
+3. db.people.aggregate([{$group: { _id: '$favoriteFruit', count: { $sum: 1 }  }}, { $merge: {  into:"FavoriteFruitSummary", whenMatched: "merge",whenNotMatched: "insert"}   }  ])
+4. db.people.find({ $expr: { $eq : [  '$index' , '$age'] } })
+
+db.survey.insertMany( [
+   { "_id": 1, "results": [ { "product": "abc", "score": 10 },
+                            { "product": "xyz", "score": 5 } ] },
+   { "_id": 2, "results": [ { "product": "abc", "score": 8 },
+                            { "product": "xyz", "score": 7 } ] },
+   { "_id": 3, "results": [ { "product": "abc", "score": 7 },
+                            { "product": "xyz", "score": 8 } ] },
+   { "_id": 4, "results": [ { "product": "abc", "score": 7 },
+                            { "product": "def", "score": 8 } ] },
+   { "_id": 5, "results": { "product": "xyz", "score": 7 } }
+] )
+
+
+5. db.survey.find({results: { $elemMatch: { product : "xyz", score: { $gte: 8 }   }  }})
+
+db.students.insertMany([
+{
+ _id: 1,
+ zipcode: "63109",
+ students: [
+              { name: "john", school: 102, age: 10 },
+              { name: "jess", school: 102, age: 11 },
+              { name: "jeff", school: 108, age: 15 }
+           ]
+},
+{
+ _id: 2,
+ zipcode: "63110",
+ students: [
+              { name: "ajax", school: 100, age: 7 },
+              { name: "achilles", school: 100, age: 8 },
+           ]
+},
+{
+ _id: 3,
+ zipcode: "63109",
+ students: [
+              { name: "ajax", school: 100, age: 7 },
+              { name: "achilles", school: 100, age: 8 },
+           ]
+},
+{
+ _id: 4,
+ zipcode: "63109",
+ students: [
+              { name: "barney", school: 102, age: 7 },
+              { name: "ruth", school: 102, age: 16 },
+           ]
+}
+])
+
+db.
+
+*/

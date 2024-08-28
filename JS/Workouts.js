@@ -51,3 +51,32 @@ function isPrime(n) {
 console.log(isPrime(49))
 
 */
+
+// const obj = {name: 'dhoni', age: 43}
+
+// function Cls(){
+//   this.name = 'Dhoni'
+//   this.age = 43
+// }
+
+// Cls.prototype.phone= 9553492955
+
+// const obj = new Cls()
+// console.log(obj.phone)
+
+function hello() {
+  const a = 10;
+}
+
+const h = new hello();
+console.log(h);
+
+const user = {
+  name: "John Doe",
+  age: 30,
+  greet() {
+    console.log(`Hi, I'm ${this.name}.`);
+  },
+};
+
+user.greet();
