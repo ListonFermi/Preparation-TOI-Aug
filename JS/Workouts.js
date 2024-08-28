@@ -35,3 +35,19 @@ if (true) {
 }
 
 */
+
+/*
+
+function isPrime(n) {
+  let i
+  for ( i = 2; i <= n; i++) {
+    if (n % i == 0) {
+      break;
+    }
+  }
+  return n === i;
+}
+
+console.log(isPrime(49))
+
+*/

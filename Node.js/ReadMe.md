@@ -30,3 +30,32 @@ Per Day Topic: 16/14
 - Exit codes
 
 Per Day Topic: 7/14
+
+## 27-Aug, Tue
+
+- Node blocking vs async
+- Event-driven architecture
+- Concurrency in Node
+- Event loop in Node.js
+- Eventqueue
+- Process.nextTick
+- Timer functions (setImmediate)
+- DNS module
+- Buffer
+- Stream
+- Pipe
+- Libuv
+- Request and response headers
+- HTTP vs HTTPS
+- Allow access control (CORS)
+- CSRF
+- REST API
+- User agent
+- URI fragment
+- express.json, express.urlencoded
+- Static files in Express
+- Router chaining
+- Router.all vs app.all
+- CORS (Cross-Origin Resource Sharing)
+
+Per Day Topic: 24/14

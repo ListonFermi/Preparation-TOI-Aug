@@ -21,3 +21,9 @@ Completed 6/74 topics
 Completed 36/74 topics
 
 --- "Topics covered on 26-Aug" ---
+
+## 28-Aug, Wed
+
+Completed 24/74 topics
+
+--- "Topics covered on 27-Aug" ---
