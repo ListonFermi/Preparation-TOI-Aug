@@ -46,7 +46,9 @@ class Graph {
     while (queue.length) {
       curr = queue.shift();
 
-      if (!visited[curr]) console.log(curr);
+      if (!visited[curr]) continue;
+        
+      console.log(curr);
       visited[curr] = true;
 
       for (let neighbor of this.adjacencyList[curr]) {
@@ -83,7 +85,7 @@ class Graph {
 const graph = new Graph();
 graph.addEdges("A", "B");
 graph.addEdges("B", "C");
-graph.addEdges("C", "A");
+// graph.addEdges("C", "A");
 
 // graph.addEdges("P", "Q");
 // graph.addEdges("Q", "R");

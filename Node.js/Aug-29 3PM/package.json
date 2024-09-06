@@ -1,0 +1,14 @@
+{
+    "name": "node",
+    "version": "1.0.0",
+    "description": "- REPL\r - HTTP methods\r - Preflight method\r - Same-origin policy\r - Express.js basics\r - Application middleware, router middleware, types of middleware\r - app.use(), app.set()\r - req.params vs req.query\r - Authentication vs Authorization\r - Node core modules (fs, events, util, etc.)\r - Parts of request and response\r - Inbuilt modules\r - Modules in Node.js",
+    "main": "app.js",
+    "type": "commonjs",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+  

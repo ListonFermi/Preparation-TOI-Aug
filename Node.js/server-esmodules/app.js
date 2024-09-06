@@ -5,7 +5,7 @@ import fs from "fs";
 fs.writeFileSync("out.txt", "hello");
 // fs2.writeFileSync('out2.txt','hello2')
 
-fs.stat("out.txt", (err, stats) => {
+fs.stat("out2.txt", (err, stats) => {
   if (err) return console.log(err.message);
 
   console.log(stats)

@@ -63,3 +63,29 @@ Per Day Topic: 4/15
 - Destructuring Nested Property
 
 Per Day Topic: 18/15
+
+## 31-Aug, Sat
+
+- Generator function
+- Factory Function
+- Constructor Function
+- Async/Await
+- Classes and Objects
+- Constructor
+- Object Declaration
+- Prototype
+- Prototypal Inheritance
+- Prototype Chain
+- Prototype vs Proto
+- Object Prototype
+
+Per Day Topic: 12/8
+
+## 9-Sep, Mon
+
+- Error Properties
+- AggregateError
+- Custom Error Types
+- Web API
+- Add Event Listeners
+- Query Selector

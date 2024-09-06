@@ -59,4 +59,13 @@ class BST {
       if (curr.right) queue.push(curr.right);
     }
   }
+
+  height(curr = this.root) {
+    if (!curr) return -1;
+
+    const leftHt = this.height(curr.left);
+    const rightHt = this.height(curr.right);
+
+    return Math.max(leftHt, rightHt) + 1;
+  }
 }

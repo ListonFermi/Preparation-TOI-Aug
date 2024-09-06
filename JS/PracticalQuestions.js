@@ -66,9 +66,27 @@ Expected output : [
 
 */
 
-const inputString = "The prices are $100, €50.50, and £30.99. Don't forget about ¥200.";
+// const inputString = "The prices are $100, €50.50, and £30.99. Don't forget about ¥200.";
 
-function extractCurrency(str){
-    
+// function extractCurrency(str){
+
+// }
+
+const a = [124, 0, 2, 5, 1, 0, 1, 4, 5, 0, 5, 8, 9, 0, 8];
+
+let l = 0,
+  r = a.length - 1;
+
+while (l < r) {
+  if (a[l] == 0 && a[r] != 0) {
+    [a[l], a[r]] = [a[r], a[l]];
+  }
+
+  if (a[l] != 0) l++;
+  if (a[r] == 0) r--;
 }
 
+console.log(a);
+
+const today = new Date();
+console.log(`${today.getDay() + 2}/${today.getMonth()+1}/${today.getFullYear()}`);
