@@ -6,3 +6,17 @@ It is created when your JavaScript file or script begins execution and is respon
 
 
 */
+
+class Node {
+  constructor(val) {
+    this.val = val;
+    this.next = null;
+  }
+}
+
+
+class Linkedlist{
+    constructor(){
+        this.head
+    }
+}
